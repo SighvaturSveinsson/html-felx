@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+
+  max-width: 60em;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+nav {
+  order: 1;
+  flex: 1 1 0;
+}
+header {
+  order: 2;
+  flex: 1 1 0;
+}
+section {
+  display: flex;
+  flex-flow: row:;
+  order: 3;
+}
+footer {
+  order: 4;
+}
+article {
+  flex: 2 2 1em;
+  order: 2;
+}
+
+/* */
+.vinstri{
+  order:1;
+    flex: 1 1 0;
+}
+.haegri{
+  order: 3;
+    flex: 1 1 0;
+}
+
+.box-set,
+.box {
+  border-radius: 6px;
+}
+.box-set {
+  height: 200px;
+}
+.box {
+  background: #2db34a;
+  height: 80px;
+  line-height: 80px;
+  position: fixed; 
+  text-align: center;
+  width: 80px;
+}
+.box-1 {
+  top: 0;
+  left: 0;
+}
+.box-2 {
+  top: 10%;
+  left: 0;
+}
+.box-3 {
+  top: 20%;
+  left: 0;
+}
+.box-4 {
+  top: 30%;
+  left: 0;
+}
+
+.topmenu {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding: 1;
+  margin: 0;
+  list-style: none;
+}
+
+.topmenu li {
+  border: 0;
+  border-left: 1px solid line;
+  padding: 0;
+
+}
+.topmenu li:last-child {
+  border-rigSht: 1px solid line;
+}
+.topmenu a{
+  display: block;
+
+}
+
+.sMedia {
+  display: block;
+  position: fixed;
+  top: 4em;
+  left: 0;
+  height: 12em;
+  width: 3em;
+}
+
+.sMedia div {
+  width: 2.8em;
+  margin: 0;
+  padding: 1em 0 0 0;
+}
+
+.sMedia a {
+  width: 3em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+.gjg{
+  position: relative;
+  height: 3em;
+  width: 3em;
+  padding: 1em 0 0 .6em;
+  background:rgb(233, 147, 26);
+  transition: all 1s ease;
+}
+
+.facebook{
+
+}
+
