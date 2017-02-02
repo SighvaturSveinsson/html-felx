@@ -1,4 +1,4 @@
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -22,7 +22,7 @@ header {
 }
 section {
   display: flex;
-  flex-flow: row:;
+  flex-flow: column;
   order: 3;
   background-color: yellow;
   text-align: center;
@@ -40,8 +40,7 @@ article {
 }
 
 /* */
-.vinstri{
-  order:1;
+.vinstri{ order:1;
   flex: 1 1 0;
 }
 .haegri{
